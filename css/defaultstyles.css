@@ -17,8 +17,7 @@ img { border:none; }
 body {
 	margin:0;
 	padding:0;
-	/*background-color:#272727;*/
-	background-color:#f8f8f8;
+	background-color:#272727;
 	/*background-color:#F3F3F3;*/
 	color:#333;
 	/*font-family:"Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;*/
@@ -44,10 +43,10 @@ float: left;
 #banner {
 	color:#FFF;
 	padding:15px;
-	-moz-border-radius-topleft:10px;
-	-webkit-border-top-left-radius:10px;
-	-moz-border-radius-topright:10px;
-	-webkit-border-top-right-radius:10px;
+	-moz-border-radius-topleft:5px;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
 	/*background-color:#373737;*/
 	width: 930px;
 	margin:0;
@@ -208,13 +207,7 @@ h4 {
 #contentbar h3, #contentbar p {
 	padding:0 10px;
 }
-/*h1 {
-	 -moz-border-radius-topleft:10px;
-	-webkit-border-top-left-radius:10px;
-	-moz-border-radius-topright:10px;
-	-webkit-border-top-right-radius:10px;
 
-}*/
 ul{
   margin-left: 25px;
   margin-top: 10px;
@@ -237,10 +230,10 @@ li {
 }
 
 #page {
-	-moz-border-radius-bottomleft:10px;
-	-webkit-border-bottom-left-radius:10px;
-	-moz-border-radius-bottomright:10px;
-	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
 }
 
 #contact {
