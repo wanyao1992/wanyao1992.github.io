@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Victoria Lin - Fun with Natural Language Computing</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
+      <link rel="stylesheet" href="lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <!-- Icon library -->
+      <link rel="stylesheet" href="lib/font-awesome-4.7.0-2/css/font-awesome.min.css">
+      <link rel="stylesheet" href="lib/academicons-1.8.6-2/css/academicons.min.css">
+      <link rel="stylesheet" href="stylesheets/styles.css">
+      <link rel="stylesheet" href="stylesheets/resource-styles.css">
+      <link rel="stylesheet" href="stylesheets/advice-styles.css">
+      <meta name="viewport" content="width=device-width">
+      <link rel="shortcut icon" href="img/icons/favicon.png"/>
+      <link rel="canonical" href="http://victorialin.net">
+      <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108707366-2"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   </head>
+   <body>
+        <div class="container">
+            <div class="row" style="padding: 0 10px 0 30px">
+                <div class="side-bar col-md-2 col-xs-12">
+                </div>
+
+                <div class="col-md-8 col-xs-12 main-body">
+                    <h3>
+                        Advice
+                    </h3>
+                    <p>
+                    This page compiles advice offered by researchers and tech professionals regarding different aspects of a career in computer science and artificial intelligence.
+                    </p>
+
+                    <div class="well blackboard">
+                        <span class="first-letter">G</span>iven two people with exactly the same ability, the one person who manages day in and day out to get in one more hour of thinking will be tremendously more productive over a lifetime.
+                        <span style="float: right">-- <a class="advice-author" href="https://history.computer.org/pioneers/hamming.html">Richard Hamming</a></span>
+                    </div>
+                    <div class="well blackboard">
+                        <span class="first-letter">Y</span>ou have to neglect things if you intend to get what you want done. There's no question about this.
+                        <span style="float: right">-- Richard Hamming</span>
+                    </div>
+                    <div class="well blackboard d-hide" id="random-slogan-1">
+                        <span class="chinese-calligraphy">千万不要放纵自己，给自己找借口。对自己严格一点儿，时间长了，自律便成为一种习惯，一种生活方式，你的人格和智慧也因此变得更加完美。</span>
+                        <span style="float: right">-- Kai-Fu Lee</span>
+                    </div>
+                    <!-- <div class="well blackboard d-hide" id="random-slogan-2">
+                        <span class="first-letter">T</span>hose days when it feels better to blame the weather, those times when you feel like it's too much for you to handle, those, are defining moments in your path towards becoming successful.
+                        <span style="float: right">-- <a class="advice-author" href="https://www.ximalaya.com/waiyu/3531660/248950257">Anonymous</a></span>
+                    </div>-->
+                    <div class="well blackboard d-hide" id="random-slogan-2">
+                        <span class="first-letter">I</span>t's when you're at your lowest point that you have to pick yourself up and continue, go through the discomfort, feel its pain.
+                        How bad do you want it? Answer this question. And start from there.
+                        <span style="float: right">-- <a class="advice-author" href="https://www.ximalaya.com/waiyu/3531660/248950257">Anonymous</a></span>
+                    </div>
+                    <hr>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Machine Learning Research and Engineering Practices</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://rockt.github.io/2018/08/29/msc-advice"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span>
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Experiments can take a long time... It is therefore critical to not fall into a slow iteration cycle too early in the course of a short-term project... When analyzing results, be hungry for useful information.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://rockt.github.io/2018/08/29/msc-advice">Advice for Short-Term Machine Learning Research Projects</a>
+                                        — Tim Rocktäschel, Jakob Foerster and Greg Farquhar <span class="advice-date">(08/29/2018)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://www.deeplearningbook.org/contents/guidelines.html"><img src="img/icons/agenda.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            A good ML practitioner needs to know how to choose an algorithm for a particular application and how to monitor and respond to feedback obtained from experiments...
+                                            If you have time to tune only one hyperparameter, tune the learning rate... on a logarithmic scale.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://www.deeplearningbook.org/contents/guidelines.html">Deep Learning Practical Methodology</a>
+                                        — Ian Goodfellow, Yoshua Bengio and Aaron Courville <span class="advice-date">(2016)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://see.stanford.edu/materials/aimlcs229/ML-advice.pdf"><img src="img/icons/presentation.svg" width="16"></a>&nbsp;
+                                        <a href="https://www.youtube.com/watch?v=sZSKGNbrwus&list=PLuAxefJc_xss7MerSKEGfcZMML6sHt681"><img src="img/icons/video-camera.svg" width="16.5"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Quite often, you’ll need to come up with your own diagnostics...
+                                            If you’re working on one important ML application for months/years, it’s very valuable for you personally to get an intuitive
+                                            understanding of what works and what doesn’t work in your problem.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://see.stanford.edu/materials/aimlcs229/ML-advice.pdf">Advice for Applying Machine Learning</a>
+                                        — Andrew Ng <span class="advice-date">(2012)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://smerity.com/articles/2017/baselines_need_love.html"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Rapid iteration is also a prime currency in enabling innovation and discovery...
+                                            baselines tend to be artificial, tiny, ancient, ignored, and rarely updated to modern best practices or techniques.
+                                            When we lose accurate baselines, we lose our ability to accurately measure our progress over time.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://smerity.com/articles/2017/baselines_need_love.html">Backing off towards simplicity - why baselines need more love</a>
+                                        — Smerity <span class="advice-date">(11/03/2017)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://zhuanlan.zhihu.com/p/59184256"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            Many widely adopted neural NLP algorithms were built on top of the core ideas in traditional NLP models...
+                                            Familiarize yourself with machine learning fundamentals...
+                                            Be mind-open and keep track of the related problems in other domains such as computer vision and data mining.
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://zhuanlan.zhihu.com/p/59184256">Advice for Beginners in Natural Language Processing</a>
+                                        — Jiwei Li <span class="advice-date">(03/14/2019)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://zhuanlan.zhihu.com/p/74249758"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            We build MXNet from scratch... how far we can go as a team is amazing...
+                                            TVM is completely new and cross-disciplinary... we need to uncover lots of problems occluded by existing system design -- it is like building a castle on a deserted island...
+                                            I started to appreciate the importance of passing knowledge on... Research is never a lone job...
+                                            Being able to spot the right thing to do is equally important as the ability of getting things done... It took the same time to do an easy task as to do a challenging one, so why not picking the problem that excites you the most?
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://zhuanlan.zhihu.com/p/74249758">Ten Years of Machine Learning Research</a>
+                                        — Tianqi Chen <span class="advice-date">(07/18/2019)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Time Management</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Calendars convert time to space. They make the finiteness of time apparent. In a way that physical space constraints are apparent...
+                                            It is easier to measure how wrong your time estimates are than it is to fix them...
+                                            Replanning is part of the plan.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://blog.usejournal.com/calendar-in-stead-of-to-do-lists-9ada86a512dd">Calendar. Not to-do lists.</a>
+                                        — Devi Parikh <span class="advice-date">(04/25/2018)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="http://www.pgbovine.net/first-semester-faculty-time-inventory.htm"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            At this point, my main professional goal is to maximize this portion of my work (solo research), since it's when I make forward progress toward
+                                            what I'm most passionate about, and also what matters most for my career advancement...
+                                            All of my other work activities are primarily to serve others; this is time for me to grind till my eyes bulge out...
+                                            RAMs are one of my main strategies for getting unstuck from local maxima in my daily research grind.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="http://www.pgbovine.net/first-semester-faculty-time-inventory.htm">How I've been spending my time as a first-semester assistant professor</a>
+                                        — Philip J. Guo <span class="advice-date">(10/2014)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="http://www.pgbovine.net/time-management.htm"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            <!-- Without enough focused time to do creative work, there is no way that I can survive this job...-->
+                                            I can no longer sustain my student schedule since the nature of a faculty job involves extreme multitasking...
+                                            I'm finally beginning to get the hang of being an academic researcher, but I have a lot less time to execute on my ideas.
+                                            So the main challenge moving forward is to find ways to do more real work in fewer hours.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="http://www.pgbovine.net/time-management.htm">Learning  Management: Thoughts for Junior Researchers</a>
+                                        — Philip J. Guo <span class="advice-date">(01/2014)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="http://www.pgbovine.net/faculty-life-preparation.htm"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            A professor at a research-intensive institution needs to be a researcher, fundraiser, teacher, academic community citizen, department citzen...
+                                            A junior professor must both be a maker and a manager... one valuable skill I learned was how to carefully schedule meetings so as to give me
+                                            enough maker time each day to march forward on my own research...
+                                            Whenever I reply to an email... give... a concrete action item... "fire and forget".
+                                            <!-- given my limited energy supply, I rarely waste time at work reading the news or other online time-wasters... -->
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="http://www.pgbovine.net/faculty-life-preparation.htm">Preparing for Junior Faculty Life</a>
+                                        — Philip J. Guo <span class="advice-date">(12/2013)</span>
+                                    </p>
+                                    <div class="related-reading">
+                                        <p>
+                                            Paul Graham, <a href="http://www.paulgraham.com/makersschedule.html">Maker's Schedule, Manager's Schedule</a>;
+                                            Ben Kamens, <a href="https://bjk5.com/post/35488799286/a-maker-managers-schedule">A maker-manager’s schedule</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="http://www.pgbovine.net/productivity-tips.htm"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            DO LESS...
+                                            get good at what you need to do for your job (computer programming and technical writing)... The better you are at your craft, the faster you will be able to do it, and the more you will be willing to try alternatives which might lead to creative innovation...
+                                            Figuring out what kind of work is useful in your particular situation is easier said than done; it requires perceptiveness, experience, and a willingness to learn from your past inefficiencies...
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><sup>*</sup><a href="http://www.pgbovine.net/productivity-tips.htm">How To Be Effective: Perspective of a PhD Student</a>
+                                        — Philip J. Guo <span class="advice-date">(02/2012)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://www.youtube.com/watch?v=ZpkFffAT208"><img src="img/icons/video-camera.svg" width="16.5"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            You can't afford everything, but you can afford anything... Prioritizing things outside of work, prioritizing rest and being strategic
+                                            about it is important for making more time...  is not a fixed resource... Rest a small amount at the right time instead of waiting for too long... Some things are either time generative or energy generative...
+                                            Morale is also important to how much energy you have... Preparation is a good substitute for time (esp. in collaborations)...
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://www.youtube.com/watch?v=ZpkFffAT208">On Time and Serendipity Management.</a>
+                                        — Jean Yang/Philip J. Guo <span class="advice-date">(12/22/2016)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Motivation</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="http://www.paulgraham.com/hamming.html"><img src="img/icons/blog.svg" width="16"></a>
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            You see again and again that it is more than one thing from a good person...
+                                            a lot of times there is repetition...
+                                            Once he got well started, his shyness, his awkwardness, his inarticulateness, fell away and he became much more productive in many other ways...
+                                            great scientists... have courage... will go forward under incredible circumstances...
+                                            The more you know, the more you learn; the more you learn, the more you can do; the more you can do, the more the opportunity — it is very much like compound interest...
+                                            The great scientists often make this error. They fail to continue to plant the little acorns from which the mighty oak trees grow...
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="http://www.paulgraham.com/hamming.html">You and Your Research.</a>
+                                        — Richard Hamming <span class="advice-date">(03/07/1986)</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://www.youtube.com/watch?v=CSfaj18Tea8"><img src="img/icons/video-camera.svg" width="16.5"></a>
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            1. Actively and proactively seek out feedback; 2. absorb and seek out related information; 3. think about edge cases, corner cases, all sorts of possibilities and contingencies to
+                                            make the project more robust and more failure-proof.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://www.youtube.com/watch?v=CSfaj18Tea8">What People Do When They Really Care About A Project.</a>
+                                        — Philip J. Guo <span class="advice-date">(01/07/2020)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Stress Management</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://soundcloud.com/nlp-highlights/85-stress-in-research-with-charles-sutton"><img src="img/icons/podcast.svg" width="18"></a>
+                                        <a href="http://www.theexclusive.org/tag/stress%20in%20research/"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            <!-- Lots of creative careers... there is a similar kind of dynamics going on... -->
+                                            <!-- I don't see how we could change it to elimiate the source of stress, but we can think about
+                                            how we manage it... -->
+                                            This is another trap that comes to you as you become more senior... there are so many little decisions you have to make... there is a danger of ...
+                                            losing your unconcious mind... one of the most important problem solving tools you have...
+                                            You need to have strategies for compartmentalizing... that allow you to be a person in the world<!--and... interact with people-->... without taking so much of your
+                                            attention that you're not able to do deep thought.
+                                            When you are a researcher, it's the deep long-term thought... that's what you are hired for, that's where your value is at...
+                                            have self-knowledge... figure out in what environment, at what time of day am I most creative, and protect that time!
+                                            <!-- understand how you think and what works best for you. -->
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://soundcloud.com/nlp-highlights/85-stress-in-research-with-charles-sutton">Stress in Research</a>
+                                        — Charles Sutton <span class="advice-date">(04/16/2019)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Writing</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://nips.cc/Conferences/2016/PaperInformation/EvaluationCriteria"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Whenever appropriate, papers on machine learning will... be evaluated on the basis of... 1) Novelty of algorithm; 2) Novelty of application/problem; 3) Difficulty of application; 4) Quality of results; 5) Insight conveyed...
+                                            Application papers should...
+                                            <!-- describe your work on a "real" as opposed to "hypothetical" application... it should-->
+                                            describe work that has direct relevance to, and addresses the full complexity of, solving a non-trivial problem.
+                                            <!-- Authors are also encouraged to convey insight about the problem, algorithms, and/or application. -->
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://nips.cc/Conferences/2016/PaperInformation/EvaluationCriteria">Guidelines for Writing A Good NeurIPS Paper</a>
+                                        — The NeurIPS 2006 Program Committee <span class="advice-date">(2013)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Your purpose is to communicate specific ideas, and everything about your paper should contribute to this goal...
+                                            you should give away the punchline...
+                                            Make your writing crisp and to the point...
+                                            Avoid puffery, self-congratulation, and value judgments: give the facts and let the reader judge.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://homes.cs.washington.edu/~mernst/advice/write-technical-paper.html">How to Write A Technical Paper</a>
+                                        — Michael D. Ernst <span class="advice-date">(11/10/2018)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Attending Conferences</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://homes.cs.washington.edu/~mernst/advice/conference-attendance.html"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            ... Hallway conversations can be even more fruitful. Do everything you can to cultivate such conversations...
+                                            You should also tell others about your research. Think about how to frame your work to convey how interesting it is...
+                                            Plan your pitch, practice it with your friends, then further refine it through interactions at the conference...
+                                            You'll learn a lot from... seeing what confuses people and receiving their ideas and suggestions...
+                                            also be sure to ask others about their work (even doing so first)...
+                                            Keep an open mind, and try to deeply understand their research.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://homes.cs.washington.edu/~mernst/advice/conference-attendance.html">Attending an Academic Conference</a>
+                                        — Michael D. Ernst <span class="advice-date">(07/2004)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Career Planning</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="http://www.paulgraham.com/hamming.html"><img src="img/icons/blog.svg" width="16"></a>
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            When your vision... is what you can do single-handedly, then you should pursue it. The day your vision... is bigger than what you can do single-handedly, then you have to move toward management. And the bigger the vision is, the farther in management you have to go...
+                                            You can't make it happen from the bottom very easily.
+                                            It depends upon what goals and... desires you have... as they change in life, you have to be prepared to change...
+                                            Keep an open mind... But when you do choose a path... be aware of... the choice you have made. Don't try to do both sides.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="http://www.paulgraham.com/hamming.html">Comparison Between Research and Management</a>
+                                        — Richard Hamming <span class="advice-date">(03/07/1986)</span>
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://soundcloud.com/nlp-highlights/90-research-in-academia-versus-industry-with-philip-resnik-and-jason-baldridge"><img src="img/icons/podcast.svg" width="18"></a>
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            <!-- This is not a binary switch, where you kind of carry on multiple interest as you going along... no matter where I go I want to work with smart teams of people who are working on
+                                            interesting problems... -->
+                                            The nature of the choices that people have to make has been changing because there are newer kind of models for dividing your time than... that tended
+                                            to exist in the past... Any situation where you are working out the fit with an employer, the core question has to deal with "value"... If it comes down to the incentives and what
+                                            it is that supporting the research, <!-- whose needs are being supported, -->
+                                            ... companies... have a bottomline that is defined in a very different way from the traditional definition of the
+                                            bottomline incentives in academia.
+                                            <!-- The way you deliver value is different depending on where you're working... -->
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://soundcloud.com/nlp-highlights/90-research-in-academia-versus-industry-with-philip-resnik-and-jason-baldridge">Research in Academia versus Industry.</a>
+                                        — Philip Resnik and Jason Baldridge <span class="advice-date">(05/31/2019)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Constant Learning</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="http://openai.com/blog/learning-day/"><img src="img/icons/blog.svg" width="16"></a>
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            We’ve found that the biggest contributions at OpenAI come from cross-functional experts, so we either need to hire them or grow them here... On a typical learning day, people do things like:
+                                            Reimplement papers. Follow deep learning tutorials. Play with new tools in cluster management, compilation, virtual world generation, or coding paradigms. Learn how to do research on bite-sized problems.
+                                            Read about new developments in seemingly unrelated areas of AI.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="http://openai.com/blog/learning-day/">How Learning Day Was Started and How It Works at OpenAI</a>
+                                        — OpenAI <span class="advice-date">(08/01/2019)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Mentoring</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://homes.cs.washington.edu/~mernst/advice/undergrad-research.html"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Be prepared with multiple potential projects... be sure to know what the goal is, what is needed to accomplish it...
+                                            Some undergraduates may prefer more direction...
+                                            Your primary goal should be to ensure frequent communication... understand the approach and the implementation, at least at some level.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://homes.cs.washington.edu/~mernst/advice/undergrad-research.html">(Graduate Student) Collaborating with Undergraduates in Research</a>
+                                        — Michael D. Ernst <span class="advice-date">(01/28/2019)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Academic Service</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://soundcloud.com/nlp-highlights/77-on-writing-quality-peer-reviews-with-noah-a-smith"><img src="img/icons/podcast.svg" width="18"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            <!-- There are many things you can say that are positive about a paper that has deep flaws. -->
+                        I tend... to imagine that the person who wrote this paper is very early in their career... and the last thing I want to do is to discourage that person from continuing to try...
+                        <!-- The speech act you're trying to perform when you write a review... contains two parts. The first part is to help the area chair come to a decision about what to do with a paper... to the best of your ability... The second act... is to nurture the community... make the next version of their paper something you would be excited to read and much more likely to accept.-->
+                        <!-- Ultimately, the goal here is to get the claims that need to be heard out into the world... -->
+                        What we really want is for the scientific field to move forward...
+                        <!-- and for findings that are going to accelerate our pace to be published,-->
+                        and for important new information that's going to affect the way people do things to get out there.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://soundcloud.com/nlp-highlights/77-on-writing-quality-peer-reviews-with-noah-a-smith">On Writing Quality Peer Reviews</a>
+                                        — Noah A. Smith <span class="advice-date">(01/07/2019)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+			                            <a href="https://nips.cc/Conferences/2018/PaperInformation/ReviewerACSACGuidelines"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Your comments should begin by summarizing the main ideas of the submission and relating these ideas to previous work...
+                                            You should then summarize the strengths and weaknesses of the submission, focusing on each of the following four criteria: Quality, Clarity, Originality and Significance.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://nips.cc/Conferences/2018/PaperInformation/ReviewerACSACGuidelines">NeurIPS Reviewer, AC & SAC Guidelines</a>
+                                        — The NeurIPS Program Committee <span class="advice-date">(2018)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Peronal Branding</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://www.fast.ai/2017/12/18/personal-brand/"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Personal branding is no substitute for doing high-quality technical work; it’s just the means by which you can share this work with a broader audience...
+                                            It’s important to offer useful information to your audience, and not just advertise your product or company...
+                                            It can be intimidating to start blogging, but remember that your target audience is you-6-months-ago...
+                                            The context of your particular background, your particular style, and your knowledge level will give a different twist to what you’re writing about.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://www.fast.ai/2017/12/18/personal-brand/">Making Peace with Personal Branding</a>
+                                        — Rachel Thomas <span class="advice-date">(12/18/2017)</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045"><img src="img/icons/blog.svg" width="16"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            It's like a resume, only better... Organizing knowledge always helps me synthesize my own ideas...
+                                            if I'm asked a question that I think someone else would also be interested in, I try to write it up...
+                                            You're best positioned to help people one step behind you.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045">Why you (yes, you) should blog</a>
+                                        — Rachel Thomas <span class="advice-date">(07/28/2017)</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <div class="resource-panel">
+                        <h4 class="advice-category">
+                            <i>Misc</i>
+                        </h4>
+                        <ul class="resource-list">
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://twitter.com/jeanqasaur/status/1074529679254511616"><img src="img/icons/twitter-social-logotype.svg" width="20"></a>&nbsp;
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Commit to something and commit hard. Doesn't matter if you switch later. It's easier to prove yourself if you've had to do it once before...
+                                            You learn just as much, if not more, about whether you like something by actually doing it, rather than thinking about if you might like it...
+                                            As years and experience in your career build up, you'll be evaluated less on your potential and more on what you've actually done.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://twitter.com/jeanqasaur/status/1074529679254511616">Advice for People in Their 20s</a>
+                                        — Jean Yang <span class="advice-date">(12/16/2018)</span>
+                                    </p>
+                                    <div class="related-reading">
+                                        <p>
+                                            Philip J. Guo, <a href="https://www.youtube.com/watch?v=sARWwsgXvcw">Jean Yang's advice for people in their 20s: "commit to something and commit hard"</a>
+                                            ("Be willing to commit to something and become an expert at something, this way if you switch to something else later on, which you probably will do, you know the amount of effort, dedication, resourcefulness and tenacity it takes to do well again in a new field...");
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://www.ximalaya.com/waiyu/3531660/248950257"><img src="img/icons/soup.svg" width="18" alt="chicken soup" title="chicken soup"></a>
+                                        <a href="https://www.ximalaya.com/waiyu/3531660/248950257"><img src="img/icons/podcast.svg" width="18"></a>
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            Those moments when you want to stay in bed and binge watch Netflix, those days when it feels better to blame the weather, those times when you feel like it's too much for you to handle,
+                                            those are defining moments in your path towards becoming successful... It's when you're at your lowest point that you have to pick yourself up and continue, go through the discomfort, <i>feel its pain</i>.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://www.ximalaya.com/waiyu/3531660/248950257">Tough Days Counts More.</a>
+                                        — Anonymous</span>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="li-credit">
+                                <div>
+                                    <div class="well advice-quote">
+                                        <a href="https://www.ximalaya.com/waiyu/3531660/248084073"><img src="img/icons/soup.svg" width="17" alt="chicken soup" title="chicken soup"></a>
+                                        <a href="https://www.ximalaya.com/waiyu/3531660/248084073"><img src="img/icons/podcast.svg" width="17"></a>
+                                        <span class="advice-quote">
+                                            <i class="fa fa-quote-left fa-sm"></i>
+                                            I give myself permission to thrive...
+                                            I give myself permission to achieve...
+                                            Now is my time to live fully...
+                                            Now is my time to celebrate...
+                                            Now is my time to shine...
+                                            Today I affirm my abundance.
+                                            <i class="fa fa-quote-right fa-sm"></i>
+                                        </span>
+                                    </div>
+                                    <p class="advice-title"><a href="https://www.ximalaya.com/waiyu/3531660/248084073">Giving Yourself Permission to Be Great.</a>
+                                        — Bob Baker</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <hr>
+                    </div>
+
+                    <a href="resources.html">&larr; Back</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.body.style.zoom="110%";
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-108707366-2');
+
+            function getRandomInt(min, max) {
+              min = Math.ceil(min);
+              max = Math.floor(max);
+              return Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+            }
+
+            $('#random-slogan-' + getRandomInt(1, 3)).removeClass('d-hide');
+        </script>
+   </body>
+</html>
